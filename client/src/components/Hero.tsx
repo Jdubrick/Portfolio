@@ -37,28 +37,28 @@ export default function Hero({}: Props) {
           }}
         >
           <ul className="flex gap-5">
-            <li>
+            <li className="hover:-translate-y-2 transition ease-in-out">
               <SocialIcon
                 url="https://github.com/Jdubrick"
                 target="_blank"
                 bgColor="white"
               />
             </li>
-            <li>
+            <li className="hover:-translate-y-2 transition ease-in-out">
               <SocialIcon
                 url="https://www.linkedin.com/in/jordandubrick/"
                 target="_blank"
                 bgColor="white"
               />
             </li>
-            <li>
+            <li className="hover:-translate-y-2 transition ease-in-out">
               <SocialIcon
                 url="https://www.instagram.com/jordandubrick/"
                 target="_blank"
                 bgColor="white"
               />
             </li>
-            <li>
+            <li className="hover:-translate-y-2 transition ease-in-out">
               <SocialIcon
                 url="mailto:dubrickjordan@gmail.com"
                 target="_blank"
