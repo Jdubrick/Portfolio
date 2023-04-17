@@ -19,7 +19,7 @@ export default function ProjectCard({
 }: Props) {
   return (
     <article
-      className="flex flex-col rounded-lg items-center flex-shrink-0 w-[70%] md:w-[60%] h-[500px] snap-center bg-gray-800 pt-5
+      className="flex flex-col rounded-lg items-center flex-shrink-0 w-[100%] h-[500px] snap-center bg-gray-800 pt-5
     hover:opacity-100 opacity-50 cursor-pointer transition-opacity duration-150 overflow-y-auto overflow-x-hidden scrollbar-thin scrollbar-thumb-rounded scrollbar-thumb-gray-600"
     >
       <div className="px-4 py-4 md:py-0 w-full">
@@ -61,22 +61,19 @@ export default function ProjectCard({
             </li>
           </ul>
         </div>
-        <ul className="flex flex-wrap list-none  text-gray-500 my-5 space-x-4 md:space-x-8 justify-center">
-          {tech.map((item) => {
+        <ul className="flex flex-wrap list-none  text-gray-500 my-5 space-x-4 md:space-x-8 justify-center md:justify-start">
+          {tech.map((item, i) => {
             return (
-              <li className="text-[10px] sm:text-[16px] md:text-lg">{item}</li>
+              <li key={i} className="text-[10px] sm:text-[16px] md:text-lg">
+                {item}
+              </li>
             );
           })}
         </ul>
-        {/* <div className="flex text-sm sm:text-[16px] md:text-lg text-gray-500 my-5 space-x-4 md:space-x-8">
-          {tech.map((item) => {
-            return <p>{item}</p>;
-          })}
-        </div> */}
         <ul className="list-disc space-y-3 pt-8 text-base sm:text-lg lg:text-xl">
-          {description.map((item) => {
+          {description.map((item, i) => {
             return (
-              <li className="mx-3">
+              <li key={i} className="mx-3">
                 <p>{item}</p>
               </li>
             );

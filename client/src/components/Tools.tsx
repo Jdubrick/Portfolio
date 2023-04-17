@@ -23,7 +23,7 @@ type Props = {};
 
 export default function Tools({}: Props) {
   return (
-    <div className="h-screen flex flex-col max-w-7xl mx-auto items-center">
+    <div className="h-screen xl:h-[80vh] flex flex-col max-w-7xl mx-auto items-center">
       <div className="flex pt-[90px]">
         <h1 className="text-xl sm:text-3xl uppercase tracking-[8px] text-gray-600">
           Skills

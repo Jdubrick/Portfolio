@@ -12,7 +12,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <main className="h-screen bg-gray-900 text-white overflow-y-scroll z-0 scroll-smooth snap-mandatory snap-y">
+    <main className="h-screen bg-gray-900 text-white overflow-y-scroll z-0 scroll-smooth sm:snap-mandatory sm:snap-y">
       <Head>
         <title> Jordan Dubrick </title>
       </Head>
@@ -33,7 +33,7 @@ export default function Home() {
         <Tools />
       </section>
       {/* Contact Me */}
-      <section id="contact" className="snap-start">
+      <section id="contact" className="snap-center">
         <Contact />
       </section>
       <Footer />

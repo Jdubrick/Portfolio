@@ -5,7 +5,7 @@ type Props = {};
 
 export default function About({}: Props) {
   return (
-    <div className="h-screen flex flex-col max-w-7xl mx-auto text-center sm:text-left items-center">
+    <div className="h-screen xl:h-[80vh] flex flex-col max-w-7xl mx-auto text-center sm:text-left items-center">
       {/* <div className="flex justify-center pt-[90px]">
         <h1 className="text-xl sm:text-3xl uppercase tracking-[12px] text-gray-600">
           About
@@ -16,7 +16,7 @@ export default function About({}: Props) {
       </h1>
       <motion.img
         initial={{
-          x: -300,
+          x: -50,
           opacity: 0,
         }}
         transition={{
@@ -25,10 +25,11 @@ export default function About({}: Props) {
         whileInView={{ x: 0, opacity: 1 }}
         viewport={{ once: true }}
         src="/headshot.jpg"
-        className="flex-shrink-0 rounded-full object-cover w-56 h-56 mt-10 md:rounded-lg md:h-64 md:w-64"
+        className="flex-shrink-0 rounded-full object-cover w-40 h-40 sm:w-56 sm:h-56 mt-10 md:rounded-lg md:h-64 md:w-64"
+        alt="Picture of me"
       />
       <motion.div
-        className="flex flex-col pt-10 text-[15px] sm:text-base px-2"
+        className="flex flex-col pt-10 text-[10px] sm:text-[15px] md:text-base px-2"
         initial={{
           x: 0,
           opacity: 0,
