@@ -15,6 +15,7 @@ export default function Home() {
     <main className="h-screen bg-gray-900 text-white overflow-y-scroll z-0 scroll-smooth">
       <Head>
         <title> Jordan Dubrick </title>
+        <link rel="shortcut icon" href="/CubeTransparent.svg" />
       </Head>
       <Navbar />
       <section id="hero" className="snap-start pb-10">
