@@ -5,13 +5,8 @@ type Props = {};
 
 export default function About({}: Props) {
   return (
-    <div className="h-screen xl:h-[80vh] flex flex-col max-w-7xl mx-auto text-center sm:text-left items-center">
-      {/* <div className="flex justify-center pt-[90px]">
-        <h1 className="text-xl sm:text-3xl uppercase tracking-[12px] text-gray-600">
-          About
-        </h1>
-      </div> */}
-      <h1 className="text-xl sm:text-3xl uppercase tracking-[8px] text-gray-600 pt-[90px]">
+    <div className="flex flex-col max-w-7xl mx-auto text-center sm:text-left items-center">
+      <h1 className="text-3xl uppercase tracking-[8px] text-gray-600 pt-[90px] pb-16">
         About
       </h1>
       <motion.img
@@ -25,11 +20,11 @@ export default function About({}: Props) {
         whileInView={{ x: 0, opacity: 1 }}
         viewport={{ once: true }}
         src="/headshot.jpg"
-        className="flex-shrink-0 rounded-full object-cover w-40 h-40 sm:w-56 sm:h-56 mt-10 md:rounded-lg md:h-64 md:w-64"
+        className="flex-shrink-0 rounded-full object-cover w-40 h-40 sm:w-56 sm:h-56 md:rounded-lg md:h-64 md:w-64"
         alt="Picture of me"
       />
       <motion.div
-        className="flex flex-col pt-10 text-[10px] sm:text-[15px] md:text-base px-2"
+        className="flex flex-col pt-10 text-[15px] sm:text-[18px] px-2"
         initial={{
           x: 0,
           opacity: 0,

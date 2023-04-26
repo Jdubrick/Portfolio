@@ -18,11 +18,11 @@ export default function Contact({}: Props) {
 
   return (
     <div className="h-screen xl:h-[80vh] flex flex-col items-center max-w-7xl mx-auto overflow-hidden">
-      <h1 className="text-xl sm:text-3xl uppercase tracking-[12px] text-gray-600 pt-[90px]">
+      <h1 className="text-3xl uppercase tracking-[12px] text-gray-600 pt-[90px]">
         Contact
       </h1>
       <motion.form
-        className="flex flex-col mx-2 pt-10 md:pt-[100px] w-[80%] md:w-[60%] space-y-3"
+        className="flex flex-col mx-2 pt-16 w-[80%] md:w-[60%] space-y-3"
         onSubmit={handleSubmit(onSubmit)}
         initial={{
           x: 0,

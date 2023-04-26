@@ -23,14 +23,14 @@ type Props = {};
 
 export default function Tools({}: Props) {
   return (
-    <div className="h-screen xl:h-[80vh] flex flex-col max-w-7xl mx-auto items-center">
+    <div className="flex flex-col max-w-7xl mx-auto items-center">
       <div className="flex pt-[90px]">
-        <h1 className="text-xl sm:text-3xl uppercase tracking-[8px] text-gray-600">
+        <h1 className="text-3xl uppercase tracking-[8px] text-gray-600">
           Skills
         </h1>
       </div>
       <motion.div
-        className="grid grid-cols-4 pt-20 gap-y-[40px] gap-x-[40px] lg:gap-y-[60px] lg:gap-x-[60px] justify-items-center content-center"
+        className="grid grid-cols-4 pt-16 gap-y-[40px] gap-x-[40px] lg:gap-y-[60px] lg:gap-x-[60px] justify-items-center content-center"
         initial={{
           y: 200,
           opacity: 0,

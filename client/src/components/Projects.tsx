@@ -10,11 +10,11 @@ function Projects({}: Props) {
 
   return (
     <div className="flex flex-col max-w-7xl mx-auto items-center overflow-hidden">
-      <h1 className="text-xl sm:text-3xl uppercase tracking-[8px] text-gray-600 pt-[90px]">
+      <h1 className="text-3xl uppercase tracking-[8px] text-gray-600 pt-[90px]">
         Projects
       </h1>
       <motion.div
-        className="grid grid-cols-1 md:grid-cols-2 pt-32 gap-5"
+        className="grid grid-cols-1 md:grid-cols-2 pt-16 gap-5"
         initial={{
           y: 200,
           opacity: 0,
