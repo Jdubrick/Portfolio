@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Inter } from "next/font/google";
 import Head from "next/head";
 import Navbar from "@/components/navbar/Navbar";
@@ -21,19 +20,15 @@ export default function Home() {
       <section id="hero" className="snap-start pb-10">
         <Hero />
       </section>
-      {/* About */}
       <section id="about" className="snap-start py-10">
         <About />
       </section>
-      {/* Projects */}
       <section id="projects" className="snap-start py-10">
         <Projects />
       </section>
-      {/* Tools/Languages/Technologies */}
       <section id="skills" className="snap-start py-10">
         <Tools />
       </section>
-      {/* Contact Me */}
       <section id="contact" className="snap-center py-10">
         <Contact />
       </section>
