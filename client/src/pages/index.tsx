@@ -8,7 +8,6 @@ import Projects from "@/components/Projects";
 import Tools from "@/components/Tools";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
-import ProjectsTwo from "@/components/ProjectsTwo";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -28,8 +27,7 @@ export default function Home() {
       </section>
       {/* Projects */}
       <section id="projects" className="snap-start py-10">
-        {/* <Projects /> */}
-        <ProjectsTwo />
+        <Projects />
       </section>
       {/* Tools/Languages/Technologies */}
       <section id="skills" className="snap-start py-10">
