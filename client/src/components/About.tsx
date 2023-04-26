@@ -50,7 +50,7 @@ export default function About({}: Props) {
         <p>
           In the 3 years since I started my journey, I have had the pleasure of
           working for two summers at a major{" "}
-          <span className="text-[#0050AE] hover:border-b-2 hover:border-gray-500 hover:border-opacity-30">
+          <span className="text-[#40B8FF] hover:border-b-2 hover:border-gray-500 hover:border-opacity-30">
             <a href="https://www.broadridge.com/ca/" target="_blank">
               fintech company
             </a>
@@ -62,14 +62,13 @@ export default function About({}: Props) {
               Wilfrid Laurier University
             </a>
           </span>
-          , where I will be graduating in June 2023.
+          , where I will be graduating in June 2023. Check out my work{" "}
+          <span className="border-b-[1px]">
+            <a href="#projects">below!</a>
+          </span>
         </p>
+
         <br />
-        <p>
-          My main path is web development, however, I have had the privilege of
-          working with various DevOps tools during my internships and enjoy
-          messing around with those as well.
-        </p>
       </motion.div>
     </div>
   );

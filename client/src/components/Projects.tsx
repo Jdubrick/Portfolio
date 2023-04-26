@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import ProjectGridItem from "./ProjectGridItem";
 import projects from "../constants/projects.json";
+import { motion } from "framer-motion";
 
 type Props = {};
 
@@ -12,7 +13,18 @@ function Projects({}: Props) {
       <h1 className="text-xl sm:text-3xl uppercase tracking-[8px] text-gray-600 pt-[90px]">
         Projects
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 pt-32 gap-5">
+      <motion.div
+        className="grid grid-cols-1 md:grid-cols-2 pt-32 gap-5"
+        initial={{
+          y: 200,
+          opacity: 0,
+        }}
+        transition={{
+          duration: 1.8,
+        }}
+        whileInView={{ y: 0, opacity: 1 }}
+        viewport={{ once: true }}
+      >
         {projects.map((project) => {
           return (
             <ProjectGridItem
@@ -22,7 +34,7 @@ function Projects({}: Props) {
             />
           );
         })}
-      </div>
+      </motion.div>
       <div className="pt-10">
         <button
           className="border-2 px-2 py-2 rounded-lg hover:border-gray-500  hover:text-gray-500"
