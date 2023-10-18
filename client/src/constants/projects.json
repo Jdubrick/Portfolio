@@ -9,14 +9,6 @@
   },
   {
     "id": 2,
-    "title": "Mountain Rentals",
-    "tech": ["Next.js", "React.js", "TypeScript", "Tailwind CSS"],
-    "description": "A single page web application built for a conceptual car rental company Mountain Rentals. This project was designed to learn more about Tailwind CSS, Next.js, and design.",
-    "gitLink": "https://github.com/Jdubrick/Mountain-Rentals",
-    "external": "https://mountain-rentals.vercel.app/"
-  },
-  {
-    "id": 3,
     "title": "Sorting Visualizer",
     "tech": ["React.js", "JavaScript", "CSS/HTML"],
     "description": "Designed for learning more about React and the DOM. You can select a variation of sorting algorithms and visually see them in action.",
@@ -24,21 +16,21 @@
     "external": "https://jdubrick.github.io/sorting-visualizer/"
   },
   {
-    "id": 4,
+    "id": 3,
     "title": "Portfolio Optimizer",
     "tech": ["Python", "Pandas", "NumPy", "PyPortfolioOpt"],
     "description": "CLI application that takes stock ticker input and generates an optimal portfolio weighting. It will display the optimal portfolio weightings against an equal-weighted portfolio consisting of the same securities.",
     "gitLink": "https://github.com/Jdubrick/portfolio-optimization"
   },
   {
-    "id": 5,
+    "id": 4,
     "title": "DCF Model Automation",
     "tech": ["Python", "Pandas", "NumPy"],
     "description": "CLI application that automates the Discounted Cash Flow model creation process for financial modelling uses. This tool saves an immense amount of time that is expended on things such as locating, organizing, and filtering data.",
     "gitLink": "https://github.com/Jdubrick/dcf-model-automation"
   },
   {
-    "id": 6,
+    "id": 5,
     "title": "Stock Information Tool",
     "tech": ["Next.js", "React.js", "TypeScript"],
     "description": "Single page web application that allows the easy search of stock tickers and allows for a visual table view of all the data. Exports to .csv filetypes.",
